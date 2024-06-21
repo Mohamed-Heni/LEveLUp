@@ -1,0 +1,52 @@
+@import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
+
+@keyframes anime {
+    from{background-color: #FFFDF8; color: black;}
+    to{background-color: #545350; color: #FFFDF8;}
+    
+
+}
+li{
+    background-color: #FFFDF8;
+
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+li:hover{
+    animation-name: anime;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor:pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+}
+.Profiles{
+    width: 95%;
+    height: 60%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+img{
+    display: inline;
+    height: 60px;
+    border-radius: 180px;
+    
+    
+}
+i{
+    color: white;
+    scale: 2;
+    float: right;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+}

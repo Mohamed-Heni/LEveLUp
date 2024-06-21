@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./CSS/F_I.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <img src="../img/Logo.png" alt="idk" id="bg">
+    <div class="container">
+        <div class="title">
+            <h6 id="grt">GeT ReAdy tO...</h6>
+            <H1 id="Lup">LEveLUp</H1>
+        </div>
+        <div class="Form">
+           
+                <input type="text" placeholder="YoUr EmAiL" id="email" class="input1">
+                <input type="password" placeholder="PasSwOrd" id="password" class="input1">
+                <button   id="login" class="button1">LoGiN</button><br><br>
+      
+                <hr style="width: 28%; float:left; background-color:rgb(85, 85, 85);">
+                <h4 style="color: rgb(85, 85, 85); display:inline; text-align:center; margin-left:8px;"><a href="./First_interact.html">create an Account</a></h4>
+                <hr style="width: 28%; float:right; color:rgb(85, 85, 85);"><br> 
+        </div>
+    </div>
+
+</body>
+<script src="./JavaScript/JavaScript3(LogIn).js" type="module"></script>
+<script>
+    function checkLocalStorageItem(key) {
+      const item = localStorage.getItem(key);
+      if (item !== null) {
+         window.location="./indexu.html"
+      } else {
+          
+      }
+      return item !== null; // Returns true if item exists, false otherwise
+  }
+  checkLocalStorageItem("userid")
+  </script>
+</html>

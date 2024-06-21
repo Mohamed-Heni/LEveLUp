@@ -1,0 +1,64 @@
+/* polygon graphs */
+.graphs:nth-of-type(1) > div{ background: var(--color1); }
+.graphs:nth-of-type(2)> div{ background: var(--color2); }
+.graphs:nth-of-type(3) > div{ background: var(--color3); }
+.graphs{
+  filter: 
+  drop-shadow(1px 1px 10px var(--colorS))
+  drop-shadow(-1px -1px 10px var(--colorS))
+  drop-shadow(-1px 1px 10px var(--colorS))
+  drop-shadow(1px -1px 10px var(--colorS));
+}
+
+/* polygon grids */
+.grids {
+  filter: 
+  drop-shadow(1px 1px 1px #ddd)
+  drop-shadow(-1px -1px 1px #ddd)
+  drop-shadow(-1px 1px 1px #ddd)
+  drop-shadow(1px -1px 1px #ddd);
+  mix-blend-mode: multiply;
+}
+.grids:nth-of-type(2) { width: 66%; }
+.grids:nth-of-type(3) { width: 33%; }
+.grids > div { background: white; }
+
+/* all polygons */
+.polygons { place-self: center;  }
+.polygons > div { width: 100%; }
+
+/* labels */ 
+.labels:first-of-type{ inset-block-start: -10%; }
+.labels{
+  height: 1lh;  
+  width: max-content;
+  position: relative;
+  text-wrap: nowrap;
+}
+
+/* other styles */
+.wrapper{ display: grid; }
+p { text-align: center; margin-top: 60px; }
+div {
+  width: 300px;
+  aspect-ratio: 1 / 1;
+  grid-area: 1 / 1;
+}
+span {
+  border-radius: 4px;
+  padding-inline: 10px;
+  padding-block: 2px;
+  margin-inline: 6px;
+  text-shadow: 0 0 6px white; 
+}
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  font: 14pt 'crimson pro';
+  --color1: rgba(78, 36, 221, 0.6);
+  --color2: rgba(236, 19, 154, 0.6);
+  --color3: rgba(156, 4, 223, 0.6);
+  --colorS: rgba(255, 0, 95, 0.1);
+  background-color: aqua;
+}

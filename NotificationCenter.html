@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/F_I.css">
+    <link rel="stylesheet" href="./CSS//TeamUp.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+</head>
+<body>
+    <div class="container">
+      <p class="quation1" style="position:relative; bottom:36px; left:10px;">Notification Center</p>
+        <div style="position: relative; bottom:100px;">
+            <header>
+              <div class="menu" style="scale:0.5; float:left;">
+                <a href="#">
+                  <span class="outter">
+                    <span class="inner">TEAMUP</span>
+                  </span>
+                </a>
+                <a href="#">
+                  <span class="outter">
+                    <span class="inner">SCHOOL</span>
+                  </span>
+                </a>
+                <a href="#">
+                  <span class="outter">
+                    <span class="inner">TEACHERS</span>
+                  </span>
+                </a>
+                <a href="#">
+                  <span class="outter">
+                    <span class="inner">CONTACT</span>
+                  </span>
+                </a>
+              </div>
+            </header>
+          
+            
+          </div>
+
+
+
+
+
+
+      <div class="notifications" id="notidiv">
+        <div class="Profile" id="${element}" > 
+          <img src="./img/Profiletest.png" alt="NO image">
+          <h3 style="color: white; display:inline; position:relative; bottom:40px; ">Name</h3>
+          <h5 style="color: rgb(165, 165, 165); display:inline; position:relative; right:51px;
+          bottom:20px;">clsass</h5>
+          <h4 style="color: white; display:inline; float:right; ">tur</h4>
+          <i class="fa-solid fa-check" id="check" style="display:none; position:relative;  top:-70px; scale:0.999;"></i>
+         
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <div class="popup" id="popup" name="popup">
+        <img src="../img/Profiletest.png" alt="No image" style="position: relative; bottom:40px; scale:2;">
+        <h1 style="font-family: 'Lato'; position:relative;bottom:30px; " id="title">TeamUp Requst</h1>
+        <p id="details"style=" position:relative;bottom:30px; " >Details</p>
+        <button id="accept" class="popupbutton" style="background-color: greenyellow;">Accept</button>
+        <button id="refuse" class="popupbutton" style="background-color:red;" onclick="close()">Refuse</button>
+      </div>
+  </div>
+    
+</body>
+<script src="../JavaScript/JavaScript(Notifications2.0).js" type="module"></script>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./CSS/navigation.css">
+    <link rel="stylesheet" href="./CSS/F_I.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+</head>
+<body >
+   
+    <div class="container" style="overflow:hidden;" >
+        <!-- <div class="animation" id="animation">
+            <div class="spin"></div>
+        </div> -->
+        <label style="position: relative; top:5px; left:5px;display: block;" id="id">ID:xxxxxxx</label>
+        <div id="divpp">
+            <img src="../img/Profiletest.png" alt="Profile pic" id="profilepic" style="border-radius: 50%; width: 200px; height: 200px;" >
+            
+        </div>
+        <div ><h1 id="Name" class="divname">Name</h1></div>
+        <div id="nickName" class="divname" style="bottom: 115px; font-size:17px; color:gray;">NickName</div>
+        <div id="discriptions">
+            <p class="class">ClassID</p>
+            <p class="class" style="float: right; margin-right:10px;" id="classid">xxxxx</p><br>
+            <p class="class">Rating</p>
+            <p class="class" style="float: right; margin-right:10px;">xxxxx</p><br>
+            <p class="class">Spicality</p>
+            <p class="class" style="float: right; margin-right:10px; ">xxxxx</p><br>
+            <p class="class">OvErAll</p>
+            <p class="class" style="float: right; margin-right:10px;" id="overall">xxxxx</p><br>
+            <hr style="width: 89%; color:rgb(85, 85, 85);"><br>
+        </div>
+        <div id="statistics">
+            <div class="wrapper div" >
+                <div class="grids polygons div"><div class="div" ></div></div>
+                <div class="grids polygons div"><div class="div" ></div></div>
+                <div class="grids polygons div"><div class="div"></div></div>
+              </div>
+              <div class="wrapper div">
+                <div class="graphs polygons div"><div class="div"><!-- Set 1 --></div></div>
+                <div class="graphs polygons div"><div class="div"><!-- Set 2 --></div></div>
+                <div class="graphs polygons div"><div class="div"><!-- Set 3 --></div></div>
+                <!-- add here more graphs -->
+              </div>
+              <div class="wrapper div" style="color: white;">
+                <div class="labels div">CT</div>
+                <div class="labels div" >CS</div>
+                <div class="labels div">C</div>
+                <div class="labels div">T</div>
+                <div class="labels div">AF</div>
+                <!-- add here more data point labels -->
+              </div>
+              <i class="fa-solid fa-circle-info" style="color: white; position:absolute; scale:2;" id="circle-info"></i>
+           </div>
+           <div class="info" id="info">
+            <p style="margin-left:10px;">CT : Critical Thinking <br> <br>
+            CS : Communication Skills <br> <br>
+            C : Creativity <br><br>
+            T : Collaboration/Teamwork<br><br>
+            AF : Adaptability/Flexibility<br><br></p>
+            
+
+        
+        
+        </div>
+           
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js"></script>
+
+<script src="./JavaScript/navigation.js"></script>
+<script src="./JavaScript/JavaScript5.js" type="module"></script>
+<script>
+   document.getElementById("circle-info").addEventListener("mouseover",function(){
+    document.getElementById("info").style="display:block;"
+   })
+   document.getElementById("circle-info").addEventListener("mouseout",function(){
+    document.getElementById("info").style="display:none;"
+   })
+</script>
+
+
+
+</html>

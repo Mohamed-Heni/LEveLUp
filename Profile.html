@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="./CSS/navigation.css">
+    <link rel="stylesheet" href="./CSS/F_I.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/datepicker.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container" style="overflow:hidden;" >
+        <label style="position: relative; top:5px; left:5px;display: block;" id="id">ID:xxxxxxx</label>
+        <div id="divpp">
+            <img src="../img/Profiletest.png" alt="Profile pic" id="profilepic" style="border-radius: 50%; width: 200px; height: 200px;">
+        </div>
+        <div ><h1 id="Name" class="divname">Name</h1></div>
+        <div id="nickName" class="divname" style="bottom: 115px; font-size:17px; color:gray;">NickName</div>
+        <div id="description" style="height: 250px; background-color: rgb(24, 24, 24); color: white; padding: 20px; text-align: left; position:relative; bottom:150px;">
+            <div style="display: flex; justify-content: space-between; ">
+                <p class="class">ClassID:</p>
+                <p class="class" id="classid">0523</p>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <p class="class">Rating:</p>
+                <p class="class">xxxxx</p>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <p class="class">E-mail:</p>
+                <p class="class" id="email">xxxxx</p>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <p class="class">PhoneNumber:</p>
+                <p class="class" id="phoneNumber">undefined</p>
+            </div>
+        </div>
+        
+        <hr style="width: 89%; color:rgb(85, 85, 85); position:relative; bottom:280px;"><br>
+        <div id="statistics" style="bottom: 335px;">
+            <div class="wrapper div" >
+                <div class="grids polygons div"><div class="div" ></div></div>
+                <div class="grids polygons div"><div class="div" ></div></div>
+                <div class="grids polygons div"><div class="div"></div></div>
+              </div>
+              <div class="wrapper div">
+                <div class="graphs polygons div"><div class="div"><!-- Set 1 --></div></div>
+                <div class="graphs polygons div"><div class="div"><!-- Set 2 --></div></div>
+                <div class="graphs polygons div"><div class="div"><!-- Set 3 --></div></div>
+                <!-- add here more graphs -->
+              </div>
+              <div class="wrapper div" style="color: white;">
+                <div class="labels div">CT</div>
+                <div class="labels div">CS</div>
+                <div class="labels div">C</div>
+                <div class="labels div">T</div>
+                <div class="labels div">AF</div>
+                <!-- add here more data point labels -->
+              </div>
+              
+           </div>
+        <button id="sar" class="button1" style="position: relative; bottom:380px; height:45px;">Send A Requeast</button>
+    </div>
+</body>
+<script src="./JavaScript/JavaScripProfile.js" type="module"></script>
+
+</html>

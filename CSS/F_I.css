@@ -1,0 +1,434 @@
+@import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+    /* background-color: rgb(24, 24, 24);
+    background: linear-gradient(to right, rgb(13, 12, 34) 0%, rgb(11, 10, 25) 50%, rgb(37, 18, 60) 100%); */
+    justify-content: center;
+    user-select: none;
+   
+   
+}
+
+
+#bg{
+    position: relative;
+    width: 1021px;
+    height: 1077px;
+    bottom: 300px;
+    right: 120px;
+    opacity: 0.4;
+
+  
+}
+.container{
+    position: absolute;
+    align-self: center;
+    width: 367px;
+    height: 796px;
+    background-image: url(./Logo.png);
+    justify-content: center;
+    border: 3px solid white;
+    overflow-x: scroll;
+    justify-self: center;
+}
+#grt{
+    position: relative;
+    top: 53px;
+    right: 77px;
+    color:rgb(88,51, 150);
+    font-size: 16px;
+}
+#Lup{
+    color:rgb(173, 88, 255); 
+    font-size: 64px;
+}
+.title{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    
+}
+.input1{
+    position: relative;
+    margin: 5px;
+    height: 52px;
+    width: 353px;
+    background-color: rgb(41, 42, 47);
+    border: none;
+    border-radius: 10px;
+    color: rgb(187, 187, 187);
+    font-size: 16px;
+}
+@keyframes button1hover {
+    from{background-color:rgb(142, 61, 246) ; color: white;}
+    to{background-color:rgb(189, 149, 240) ; color: rgb(68, 68, 68);}
+}
+.button1{
+    position: relative;
+    margin-top: 12px;
+    right: -5px;
+    height: 52px;
+    width: 353px;
+    background-color:rgb(142, 61, 246) ;
+    border: none;
+    border-radius: 48px;
+    color:white ;
+    font-size: 16px;
+    
+}
+.button1:hover{
+    animation: button1hover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.button2{
+    position: relative;
+    margin-top: 12px;
+    right: -5px;
+    height: 52px;
+    width: 353px;
+    background-color:rgb(41, 42, 47) ;
+    border: none;
+    border-radius: 48px;
+    color:rgb(187, 187, 187); ;
+    font-size: 16px;
+}
+.Form{
+    position: relative;
+    height: 400px;
+    top: 50px;
+}
+
+.google{
+    display: inline;
+width: 22px;
+height: 22px;
+
+}
+.quation{
+   
+
+    /* WhaT’S YoUr MajOur? */
+
+position: absolute;
+width: 286px;
+height: 97px;
+left: 19px;
+top: 150px;
+
+font-family: 'Lato';
+font-size: 48px;
+line-height: 100%;
+/* or 48px */
+
+color: #FFFFFF;
+
+
+}
+.quation1{
+    font-family: 'Lato';
+font-size: 48px;
+line-height: 100%;
+/* or 48px */
+
+color: #FFFFFF;
+}
+.Select{
+    position: relative;
+    top: 300px;
+}
+.majours{
+    /* Rectangle 1 */
+
+position: relative;
+width: 278px;
+height: 37px;
+left: 10px;
+top: 11px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 100%;
+/* or 15px */
+
+color: #000000;
+
+background: #674E81;
+border-radius: 5px;
+
+}
+.DataCollectZone{
+    height: 75%;
+    position: relative;
+    top: 200px;
+}
+
+#profilepic{
+    border-radius: 180px;
+    scale: 0.77;
+    max-width: 75%; /* Optional: to make sure the image doesn't overflow */
+    max-height: 75%; /* Optional: to make sure the image doesn't overflow */
+    
+    
+}
+#divpp{
+    position: relative;
+    text-align: center;
+    bottom: 20px;
+  
+ 
+    
+}
+.divname{
+    position: relative;
+    display: block;
+    text-align: center;
+    bottom: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.5px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+
+}
+#discriptions{
+    position: relative;
+    bottom: 120px;
+    height: 130px;
+}
+.class{
+color: #FFFFFF;
+display: inline-block;
+font-size: 21px;
+margin: 2px;
+}
+.class1{
+color: #FFFFFF;
+display:block;
+font-size: 21px;
+margin: 2px;
+}
+.notifications{
+    position: relative;
+    height: 500px;
+    bottom: 100px;
+}
+.popup{
+    position:absolute;
+    width: 90%;
+    height: 350px;
+    background-color:aliceblue;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+    scale: 0; 
+    border-radius: 10px;
+}
+.openpopup{
+    scale: 1;
+}
+.closepopup{
+    scale: 0;
+}
+.popupbutton{
+    height: 40px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+}
+
+.nameUP{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.input3{
+    border: none;
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 50px;
+    color: rgb(227, 227, 227);
+    font-size: 18px;
+    
+}
+.settengdiv{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: solid rgb(110, 110, 110) 1px;
+    border-top: none;
+    border-left: none ;
+    border-right: none ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the spider shit */
+
+#statistics{
+    display: grid;
+    place-content: center;
+    height: 45vh;
+    font: 14pt 'crimson pro';
+    --color1: rgba(78, 36, 221, 0.6) ;
+    --color2: rgba(236, 19, 154, 0.6);
+    --color3: rgba(156, 4, 223, 0.6);
+    --colorS: rgba(255, 0, 95, 0.1);
+    scale: 0.8;
+    
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    background: rgb(255, 255, 255, 0.01);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+
+    position: relative;
+    bottom: 140px;
+  }
+
+  span {
+    border-radius: 4px;
+    padding-inline: 10px;
+    padding-block: 2px;
+    margin-inline: 6px;
+    text-shadow: 0 0 6px white; 
+  }
+  /* other styles */
+.wrapper{ display: grid; }
+.p { text-align: center; margin-top: 60px; }
+.div {
+  width: 300px;
+  aspect-ratio: 1 / 1;
+  grid-area: 1 / 1;
+}
+
+/* polygon graphs */
+.graphs:nth-of-type(1) > div{ background: var(--color1); opacity: 0 ; }
+.graphs:nth-of-type(2)> div{ background: var(--color2); opacity: 0 ;}
+.graphs:nth-of-type(3) > div{ background: var(--color3); opacity: 0.5 ;}
+.graphs{
+  filter: 
+  drop-shadow(1px 1px 10px var(--colorS))
+  drop-shadow(-1px -1px 10px var(--colorS))
+  drop-shadow(-1px 1px 10px var(--colorS))
+  drop-shadow(1px -1px 10px var(--colorS));
+}
+
+/* polygon grids */
+.grids {
+  filter: 
+  drop-shadow(1px 1px 1px #ddd)
+  drop-shadow(-1px -1px 1px #ddd)
+  drop-shadow(-1px 1px 1px #ddd)
+  drop-shadow(1px -1px 1px #ddd);
+  mix-blend-mode: multiply;
+  
+}
+.grids:nth-of-type(2) { width: 66%; }
+.grids:nth-of-type(3) { width: 33%; }
+.grids > div { background: rgb(255, 255, 255); }
+
+/* all polygons */
+.polygons { place-self: center;  }
+.polygons > div { width: 100%; }
+
+/* labels */ 
+.labels:first-of-type{ inset-block-start: -10%; }
+.labels{
+  height: 1lh;  
+  width: max-content;
+  position: relative;
+
+  text-wrap: nowrap;
+}
+
+
+
+
+
+
+
+
+/* Loding Animation */
+
+.animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: absolute;
+    scale: 0.5;
+    top: 270px;
+    left: 110px;
+  }
+  
+  .spin {
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgba(0,0,0,0.1);
+    border-top: 10px solid #ff1493;
+    border-radius: 50%;
+    animation: spin linear 0.5s infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+.info{
+    
+    position:absolute;
+    top:49%;
+    left:10%; 
+    width:300px; 
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    
+    background: rgb(255, 255, 255, 0.01);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(100px);
+    color: white;
+    display: none;
+}
